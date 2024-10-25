@@ -1,0 +1,49 @@
+species2014	species	english	latin	group	family	male_min	male_max	female_min	female_max	weight	order	order2014	branch_length
+PICPU	PICPU	Downy Woodpecker	Picoides pubescens	woodpecker	woodpeckers	20,70	32,20	20,70	32,20	26,45	39	1	0.14337011012642253416
+MERNU	MERNU	Carmine Bee-eater	Merops nubicus	woodpecker	bee-eaters	34,00	59,00	34,00	59,00	46,5	38	2	0.10295692038068511576
+BUCRH	BUCRH	Rhinoceros Hornbill	Buceros rhinoceros	woodpecker	hornbills	2465,00	2960,00	2040,00	2330,00	2448,75	37	3	0.09978173141421996239
+APAVI	APAVI	Bar-tailed Trogon	Apaloderma vittatum	woodpecker	trogons	55,00	55,00	55,00	55,00	55	36	4	0.10483156204618176988
+LEPDI	LEPDI	Cuckoo Roller	Leptosomus discolor	woodpecker	cockoo-roller	160,00	301,00	160,00	301,00	230,5	35	5	0.06695642581762549506
+COLST	COLST	Speckled Mousebird	Colius striatus	woodpecker	mousebirds	36,00	80,00	50,00	55,00	55,25	34	6	0.12047156157154118028
+TYTAL	TYTAL	Barn Owl	Tyto alba	woodpecker	owls	187,00	700,00	187,00	700,00	443,5	33	7	0.06754049962740654722
+HALAL	HALAL	White-tailed Eagle	Haliaeetus albicilla	woodpecker	eagles	3100,00	5400,00	3700,00	6900,00	4775	32	8	0.00114204781901779129
+HALLE	HALLE	Bald Eagle	Haliaeetus leucocephalus	woodpecker	eagles	3200,00	5200,00	4000,00	6200,00	4650	31	9	0.00100214380964305447
+CATAU	CATAU	Turkey Vulture	Cathartes aura	woodpecker	vultures	850,00	2000,00	850,00	2000,00	1425	30	10	0.03006986764627299705
+GEOFO	GEOFO	Medium Ground-finch	Geospiza fortis	finch	oscines	18,00	32,00	18,00	32,00	25	47	11	0.03719930529721753726
+TAEGU	TAEGU	Zebra Finch	Taeniopygia guttata	finch	oscines	10,00	10,00	10,00	10,00	10	48	12	0.04196768210353072487
+CORBR	CORBR	American Crow	Corvus brachyrhynchos	finch	oscines	250,00	575,00	250,00	575,00	412,5	46	13	0.03847367084047498970
+MANVI	MANVI	Golden-collared Manakin	Manacus vitellinus	finch	suboscines	19,30	19,30	17,10	17,10	18,2	45	14	0.06930071020249939373
+ACACH	ACACH	Rifleman	Acanthisitta chloris	finch	wrens	6,00	6,00	7,00	7,00	6,5	44	15	0.08356784367257652502
+NESNO	NESNO	Kea	Nestor notabilis	finch	parrots	922,00	922,00	922,00	922,00	922	43	16	0.04202072919051132865
+MELUN	MELUN	Budgerigar	Melopsittacus undulatus	finch	parrots	26,00	29,00	26,00	29,00	27,5	42	17	0.05848610710477386565
+FALPE	FALPE	Peregrine Falcon	Falco peregrinus	finch	falcons	425,00	1060,00	595,00	1600,00	920	41	18	0.07623456175620912934
+CARCR	CARCR	Red-legged Seriema	Cariama cristata	finch	seriemas	1500,00	1500,00	1500,00	1500,00	1500	40	19	0.05500194156181956173
+EGRGA	EGRGA	Little Egret	Egretta garzetta	penguin	herons	280,00	710,00	280,00	710,00	495	28	20	0.05619214538834969852
+PELCR	PELCR	Dalmatian Pelican	Pelecanus crispus	penguin	pelicans	10000,00	13000,00	10000,00	13000,00	11500	29	21	0.04165214732285271726
+NIPNI	NIPNI	Crested Ibis	Nipponia nippon	penguin	ibises	1800,00	1800,00	1800,00	1800,00	1800	27	22	0.03983191693545153761
+PHACA	PHACA	Cormorant	Phalacrocorax carbo	penguin	cormorants	1810,00	2810,00	1810,00	2810,00	2310	26	23	0.06390072121783604842
+PYGAD	PYGAD	Adelie Penguin	Pygoscelis adeliae	penguin	penguins	3800,00	8200,00	3800,00	8200,00	6000	23	24	0.01352980907493958260
+APTFO	APTFO	Emperor Penguin	Aptenodytes forsteri	penguin	penguins	19000,00	46000,00	19000,00	46000,00	32500	24	25	0.01090975034226547569
+FULGL	FULGL	Northern Fulmar	Fulmarus glacialis	penguin	fulmars	730,00	1050,00	535,00	855,00	792,5	25	26	0.03416058303128178403
+GAVST	GAVST	Red-throated Loon	Gavia stellata	penguin	loons	988,00	2460,00	988,00	2460,00	1724	22	27	0.04446615576907132078
+PHALE	PHALE	White-tailed Tropicbird	Phaethon lepturus	tropicbirds	tropicbirds	220,00	410,00	220,00	410,00	315	21	28	0.05906151547971673355
+EURHE	EURHE	Sunbittern	Eurypyga helias	tropicbirds	sunbittern	188,50	295,00	188,50	295,00	241,75	20	29	0.09470289401860604306
+CHAVO	CHAVO	Killdeer	Charadrius vociferus	crane	plovers	72,00	121,00	72,00	121,00	96,5	19	30	0.06016638160099793686
+BALRE	BALRE	Grey Crowned Crane	Balearica regulorum	crane	cranes	3000,00	4000,00	3000,00	4000,00	3500	18	31	0.05705645035504940815
+OPHHO	OPHHO	Hoatzin	Ophisthocomus hoazin	hoazin	hoazin	695,00	900,00	695,00	900,00	797,5	17	32	0.07556944687975468422
+TAUER	TAUER	Red-crested Turaco	Tauraco erythrolophus	cuckoo	turacos	210,00	325,00	210,00	325,00	267,5	12	33	0.07078577990315870760
+CHLMA	CHLUN	MacQueens Bustard	Chlamydotis macqueenii	cuckoo	bustards	1800,00	3200,00	1200,00	1700,00	1975	13	34	0.07314754428855320401
+CUCCA	CUCCA	Common Cuckoo	Cuculus canorus	cuckoo	cuckoos	115,00	115,00	115,00	115,00	115	11	35	0.11149034290960456450
+CHAPE	CHAPE	Chimney Swift	Chaetura pelagica	swift	swifts	21,00	21,00	21,00	21,00	21	15	36	0.09078444347276869164
+CALAN	CALAN	Annas Hummingbird	Calypte anna	swift	hummingbirds	3,30	5,80	3,30	4,60	4,25	16	37	0.11256371899621678279
+ANTCA	CAPCA	Chuck-wills-widow	Antrostomus carolinensis	swift	nightjars	94,00	137,00	114,00	120,00	116,25	14	38	0.06966131682333999431
+PTEGU	PTEGU	Yellow-throated Sandgrouse	Pterocles gutturalis	dove	sandgrouse	340,00	345,00	285,00	400,00	342,5	9	39	0.07165064326126222016
+MESUN	MESUN	Brown Mesite	Mesitornis unicolor	dove	mesites	148,00	148,00	148,00	148,00	148	10	40	0.08712456250758675302
+COLLI	COLLI	Rock Pigeon	Columba livia	dove	doves	180,00	355,00	180,00	355,00	267,5	8	41	0.09633671022177493770
+PHORU	PHORU	American Flamingo	Phoenicopterus ruber	dove	flamingos	2100,00	4100,00	2100,00	4100,00	3100	7	42	0.03117462085999683427
+PODCR	PODCR	Great Crested Grebe	Podiceps cristatus	dove	grebes	596,00	1490,00	596,00	1490,00	1043	6	43	0.05841789663677736388
+GALGA	GALGA	Red Junglefowl	Gallus gallus	chicken	landfowl	672,00	1450,00	485,00	1050,00	914,25	4	44	0.03905575798189642872
+MELGA	MELGA	Turkey	Meleagris gallopavo	chicken	landfowl	5000,00	11200,00	2200,00	4200,00	5650	5	45	0.04493722486181307013
+ANAPL	ANAPL	Mallard	Anas platyrhynchos	chicken	waterfowl	870,00	1800,00	735,00	1320,00	1181,25	3	46	0.10028745513816673951
+TINGU	TINMA	White throated tinamou	Tinamus guttatus	chicken	tinamous	623,00	652,00	680,00	800,00	688,75	2	47	0.14713848271634652476
+STRCA	STRCA	Ostrich	Struthio camelus	chicken	ostrich	100000,00	156000,00	90000,00	110000,00	114000	1	48	0.06690492158986660609

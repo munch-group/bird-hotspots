@@ -56,6 +56,7 @@ chromosomes = ['1', '1A', '2', '3', '4', '4A', '5', '6', '7', '9', '10', '11', '
 
 example_species = ['Zebra Finch', 'Medium Ground-finch', 'Peregrine Falcon', 'American Flamingo', 'Downy Woodpecker', 'Ostrich']
 
+flank_start = 30000
 
 def abline(slope, intercept, ax=None):
     "Add a straight line through the plot"

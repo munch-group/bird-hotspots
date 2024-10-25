@@ -1,0 +1,19 @@
+name: hotspot-notebooks
+channels:
+  - defaults
+dependencies:
+  - tqdm
+  - jupyterlab
+  - scipy
+  - biopython
+  - ipyparallel
+  - seaborn
+  - ete3
+  - ipython
+  - nodejs
+  - modin
+  - chromwindow
+  - pytables
+  - ipywidgets
+  - scikit-learn
+prefix: /home/kmt/miniconda3/envs/hotspot-notebooks
