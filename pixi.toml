@@ -1,0 +1,23 @@
+[workspace]
+authors = ["Kasper Munch <kaspermunch@birc.au.dk>"]
+channels = ["conda-forge", "bioconda", "munch-group"]
+name = "bird-hotspots"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+tqdm = ">=4.67.3,<5"
+jupyter = ">=1.1.1,<2"
+scipy = ">=1.17.1,<2"
+biopython = ">=1.87,<2"
+ipykernel = ">=7.2.0,<8"
+seaborn = ">=0.13.2,<0.14"
+ete3 = ">=3.1.3,<4"
+nodejs = ">=26.2.0,<26.3"
+modin = ">=0.32.0,<0.33"
+pytables = ">=3.11.1,<4"
+ipywidgets = ">=8.1.8,<9"
+scikit-learn = ">=1.8.0,<2"
+vscodenb = ">=0.1.79,<0.2"
