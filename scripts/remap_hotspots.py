@@ -1,16 +1,8 @@
-from IPython import get_ipython
-
-from scipy import signal
 import numpy as np
 import pandas as pd
 import bisect
-import importlib
-import warnings
-from pathlib import Path
-import gc
-import os, sys
+import sys
 
-import ete3
 np.random.seed(7)
 
 import genominterv

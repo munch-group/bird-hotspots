@@ -1,16 +1,9 @@
-from IPython import get_ipython
-
-from scipy import signal
 import numpy as np
 import pandas as pd
 import bisect
-import importlib
-import warnings
 from pathlib import Path
-import gc
-import os, sys
+import  sys
 
-import ete3
 np.random.seed(7)
 
 import genominterv
@@ -131,19 +124,25 @@ def optimize_data_frame(df, inplace=False, down_int='integer'):
 
 
 # _, species_dir, hotspot_data_file, cgi_data_file, promoter_data_file, tss_data_file, tes_data_file, outfile_hotspots, outfile_cgi, outfile_promoters, outfile_tss, outfile_tes, outfile_hotspots_rel_cgi, outfile_hotspots_rel_tss, outfile_hotspots_rel_tes = sys.argv
-_, species_dir, hotspot_data_file, cgi_data_file, promoter_data_file, tss_data_file, tes_data_file, \
-    outfile_hotspots, outfile_cgi, outfile_promoters, outfile_tss, outfile_tes = sys.argv
+_, species_dir, finch_hotspot_data_file, owl_hotspot_data_file, cgi_data_file, promoter_data_file, tss_data_file, tes_data_file, \
+    outfile_finch_hotspots, outfile_owl_hotspots, outfile_cgi, outfile_promoters, outfile_tss, outfile_tes = sys.argv
 
 species_dir = Path(species_dir)
 
 chromosomes = ['1', '1A', '2', '3', '4', '4A', '5', '6', '7', 
                '8', '9', '10', '11', '12', '13', '14', '15']
 
-# read hotspot data
-hotspots = pd.read_csv(hotspot_data_file, names=['chrom', 'start', 'end'], sep='\t')
-hotspots['pos'] = (hotspots.start + (hotspots.end - hotspots.start) / 2).round().astype(int)
-hotspots['chrom'] = hotspots.chrom.str.replace('chr', '')
-hotspots.rename(columns={'stop': 'end'}, inplace=True)
+# read finch hotspot data
+finch_hotspots = pd.read_csv(finch_hotspot_data_file, names=['chrom', 'start', 'end'], sep='\t')
+finch_hotspots['pos'] = (finch_hotspots.start + (finch_hotspots.end - finch_hotspots.start) / 2).round().astype(int)
+finch_hotspots['chrom'] = finch_hotspots.chrom.str.replace('chr', '')
+finch_hotspots.rename(columns={'stop': 'end'}, inplace=True)
+
+# read owl hotspot data
+owl_hotspots = pd.read_csv(owl_hotspot_data_file, names=['chrom', 'start', 'end'], sep='\t')
+owl_hotspots['pos'] = (owl_hotspots.start + (owl_hotspots.end - owl_hotspots.start) / 2).round().astype(int)
+owl_hotspots['chrom'] = owl_hotspots.chrom.str.replace('chr', '')
+owl_hotspots.rename(columns={'stop': 'end'}, inplace=True)
 
 # read cgi data
 cgi = pd.read_csv(cgi_data_file, sep='\t')
@@ -177,8 +176,16 @@ for chrom_file in species_dir.iterdir():
 data = pd.concat(df_list) 
 
 # remap to hotspots and and write file
-remapped = remap_data(data, hotspots)
-remapped.to_csv(outfile_hotspots, sep='\t', index=False)
+remapped = remap_data(data, finch_hotspots)
+remapped.to_csv(outfile_finch_hotspots, sep='\t', index=False)
+
+# remap to cgi and and write file
+remapped = remap_data(data, cgi)
+remapped.to_csv(outfile_finch_hotspots, sep='\t', index=False)
+
+# remap to hotspots and and write file
+remapped = remap_data(data, owl_hotspots)
+remapped.to_csv(outfile_owl_hotspots, sep='\t', index=False)
 
 # remap to cgi and and write file
 remapped = remap_data(data, cgi)

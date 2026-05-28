@@ -27,18 +27,18 @@ substitutions = ['rA2C', 'rT2G',
                  'rA2T', 'rT2A', 
                  'rC2A', 'rG2T',
                  'rC2G', 'rG2C']
-# cpg_substitutions = ['rA2c', 'rT2g',
-#                      'rc2T', 'rg2A',
-#                      'rA2g', 'rT2c',
-#                      'rc2A', 'rg2T',
-#                      'rc2g', 'rg2c']
-
+cpg_substitutions = ['rA2c', 'rT2g',
+                     'rc2T', 'rg2A',
+                     'rA2g', 'rT2c',
+                     'rc2A', 'rg2T',
+                     'rc2g', 'rg2c']
+all_substitutions = substitutions + cpg_substitutions
 
 transitions = ['rA2G', 'rG2A', 'rT2C', 'rC2T']
-# cpg_transitions = ['rA2g', 'rg2A', 'rT2c', 'rc2T']
+cpg_transitions = ['rA2g', 'rg2A', 'rT2c', 'rc2T']
 
 transversions = [x for x in substitutions if x not in transitions]
-# cpg_transversions = [x for x in cpg_substitutions if x not in cpg_transitions]
+cpg_transversions = [x for x in cpg_substitutions if x not in cpg_transitions]
 
 paired_patterns = [('rT2G', 'rA2C'),
                    ('rA2G', 'rT2C'),
@@ -46,11 +46,11 @@ paired_patterns = [('rT2G', 'rA2C'),
                    ('rG2T', 'rC2A'),
                    ('rC2G', 'rG2C'), 
                    ('rC2T', 'rG2A')]
-# cpg_paired_patterns = [('rT2g', 'rA2c'),
-#                        ('rA2g', 'rT2c'),
-#                        ('rg2T', 'rc2A'),
-#                        ('rc2g', 'rg2c'), 
-#                        ('rc2T', 'rg2A')]
+cpg_paired_patterns = [('rT2g', 'rA2c'),
+                       ('rA2g', 'rT2c'),
+                       ('rg2T', 'rc2A'),
+                       ('rc2g', 'rg2c'), 
+                       ('rc2T', 'rg2A')]
 
 chromosomes = ['1', '1A', '2', '3', '4', '4A', '5', '6', '7', '9', '10', '11', '12', '13', '14', '15']
 
